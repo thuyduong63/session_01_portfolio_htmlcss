@@ -21,3 +21,23 @@
     font-size: 1.25rem;
     font-weight: 300;
 }
+/* skills section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.skill-bar {
+    background: #e2e8f0;
+    height: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    transition: width 1s ease-out;
+}

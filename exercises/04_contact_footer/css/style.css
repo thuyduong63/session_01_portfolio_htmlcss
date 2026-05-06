@@ -269,3 +269,6 @@ input:focus, textarea:focus {
         grid-template-columns: 1fr;
     }
 }
+textarea {
+    resize: vertical;
+}

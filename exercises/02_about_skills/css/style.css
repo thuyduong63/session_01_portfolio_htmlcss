@@ -41,3 +41,13 @@
     background: linear-gradient(90deg, #6366f1, #8b5cf6);
     transition: width 1s ease-out;
 }
+/* responsive */
+@media (max-width: 768px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}

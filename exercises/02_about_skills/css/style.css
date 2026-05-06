@@ -1,0 +1,23 @@
+/* about section */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}

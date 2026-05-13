@@ -70,3 +70,44 @@
     }
 }
 /* hover animation for portfolio items */
+/* LIGHTBOX */
+
+.lightbox {
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0,0,0,0.95);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.3s ease;
+
+    z-index: 2000;
+}
+
+.lightbox:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.lightbox img {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 12px;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+
+    color: white;
+    font-size: 3rem;
+
+    text-decoration: none;
+}
